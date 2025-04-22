@@ -28,4 +28,4 @@ Coming soon...
 
 ---
 
-> Made by Kiin Chang with ❤️ and Pine Script logic
+> Made by Kiin Chang and Pine Script logic
