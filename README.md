@@ -6,7 +6,10 @@ A scientific BTC/USDT trading strategy using directional scoring and ATR-based T
 - 2× ATR Take-Profit, 1× ATR Stop-Loss
 - Score ≥ 1 triggers a trade
 - Leverage: 5× simulated
-- Backtest ROI: ~875% (2021–2022)
+- Backtest ROI: Backtest is currently in progress using historical BTCUSDT data from 2021–2024.  
+Preliminary results show promising signal reliability and risk-reward balance under multiple market conditions.
+
+> ⚠️ Final ROI metrics will be shared after validation and optimization.
 
 > ⚠️ This indicator provides **signal-based guidance** for discretionary trading.  
 > It **does not account for** news events, liquidation heatmaps, funding rate trends, or market sentiment (FOMO).  
