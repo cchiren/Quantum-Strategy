@@ -1,20 +1,26 @@
 # Quantum Strategy 📈  
-A scientific BTC/USDT trading strategy using directional scoring and ATR-based TP/SL.
+A math and statistics-based BTC/USDT trading strategy designed for directional signal generation and ATR-based risk management.  
+This signal system is intended as a **reference for long/short trading decisions** and is under active development.
 
 ## 📌 Features
 - Directional Score System (long/short)
 - 2× ATR Take-Profit, 1× ATR Stop-Loss
 - Score ≥ 1 triggers a trade
 - Leverage: 5× simulated
-- Backtest ROI: Backtest is currently in progress using historical BTCUSDT data from 2021–2024.  
-Preliminary results show promising signal reliability and risk-reward balance under multiple market conditions.
+- Backtest ROI: Currently ongoing using historical BTCUSDT data from 2021–2024  
+  Preliminary results show stable signal reliability across multiple market phases.
+> ⚠️ This strategy provides **signal-based guidance** and does **not** incorporate news events, liquidation maps, funding rates, or market sentiment (FOMO). Use it with discretion and alongside other tools.
+>
+> ## 🔭 Strategy Use & Future Direction
+This strategy serves as a **signal indicator for discretionary long/short trading**.  
+Over the next year, it will undergo **live forward-testing**, with the goal of evolving into an **automated trading bot** integrated with exchange APIs.
 
-> ⚠️ Final ROI metrics will be shared after validation and optimization.
-
-> ⚠️ This indicator provides **signal-based guidance** for discretionary trading.  
-> It **does not account for** news events, liquidation heatmaps, funding rate trends, or market sentiment (FOMO).  
-> Use with caution and **combine with other tools**.
-
+The vision:
+- 🔁 Automate trade execution using live data
+- 🔌 Connect to Binance and other exchange APIs
+- 🔄 Support real-time signal updates and logging
+- 📈 Monitor and visualize PnL, win rate, drawdown, etc.
+  
 ---
 
 ## 📊 Strategy Logic Summary
@@ -46,9 +52,9 @@ Preliminary results show promising signal reliability and risk-reward balance un
 ---
 
 ## 🧪 Files
-- `quantum_strategy_v1.py` – Core Pine Script logic
-- `backtest/` – Backtesting CSVs and summaries
-- `config/settings.json` – Strategy parameters and weight coefficients
+- `quantum_strategy_v1.py`: Core score and ATR logic
+- `backtest/`: Historical performance & logs
+- `config/settings.json`: Parameter config
 
 ---
 
