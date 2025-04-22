@@ -1,6 +1,5 @@
 # Quantum Strategy 📈  
-A math and statistics-based BTC/USDT trading strategy designed for directional signal generation and ATR-based risk management.  
-This signal system is intended as a **reference for long/short trading decisions** and is under active development.
+A statistically-driven BTC/USDT directional signal system leveraging multi-factor scoring and ATR-based dynamic risk control.
 
 ## 📌 Features
 - Directional Score System (long/short)
@@ -10,6 +9,13 @@ This signal system is intended as a **reference for long/short trading decisions
 - Backtest ROI: Currently ongoing using historical BTCUSDT data from 2021–2024  
   Preliminary results show stable signal reliability across multiple market phases.
 > ⚠️ This strategy provides **signal-based guidance** and does **not** incorporate news events, liquidation maps, funding rates, or market sentiment (FOMO). Use it with discretion and alongside other tools.
+>
+> ## 📈 Backtest Overview
+- Timeframe: 5m, 30m, 1h
+- Exchange: Binance Futures – BTC/USDT Perpetual
+- Period: 2021–2024 (in progress)
+- Environment: Manual signal review + Python-based simulation
+> Final backtest reports (PnL, drawdown, win rate) will be released after validation.
 >
 > ## 🔭 Strategy Use & Future Direction
 This strategy serves as a **signal indicator for discretionary long/short trading**.  
@@ -88,6 +94,10 @@ The vision:
 > ⚠️ The **full Pine Script code is not open-source**.  
 > The public version shares performance snapshots and key logic.  
 > If you're interested in collaboration or licensing, please reach out.
+
+## 🔐 License
+This repository is licensed for educational and reference purposes only.  
+The strategy logic is proprietary and redistribution is prohibited without consent.
 
 ---
 
