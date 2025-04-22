@@ -32,9 +32,14 @@ Preliminary results show promising signal reliability and risk-reward balance un
 *Long: Green (L3+), Short: Red (S-2, S-3)*  
 *(5-min chart – BTCUSDT Perpetual, BINANCE)*
 
-<img src="assets/quantum_strategy_example1.png" alt="Quantum Strategy chart snapshot" width="100%">
+**5-minute Chart**
+![5m](images/QS_5min.png)
 
-<img src="assets/quantum_strategy_example2.png" alt="Quantum Strategy chart snapshot 2" width="100%">
+**30-minute Chart**
+![30m](images/QS_30m.png)
+
+**1-hour Chart**
+![1h](images/QS_1h.png)
 
 ---
 
