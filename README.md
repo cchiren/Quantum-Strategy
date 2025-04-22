@@ -63,7 +63,7 @@ A scientific BTC/USDT trading strategy using directional scoring and ATR-based T
 
 > Strategy developed by **Kiin Chang**  
 > For collaboration or integration inquiries:  
-📧 **wedo@gmail.com**
+📧 **wedo101@gmail.com**
 
 ---
 
