@@ -32,14 +32,15 @@ Preliminary results show promising signal reliability and risk-reward balance un
 *Long: Green (L3+), Short: Red (S-2, S-3)*  
 *(5-min chart – BTCUSDT Perpetual, BINANCE)*
 
-**5-minute Chart**
-![5m](images/QS_5min.png)
+**5-minute Chart**  
+<img src="images/QS_5min.png" width="700"/>
 
-**30-minute Chart**
-![30m](images/QS_30m.png)
+**30-minute Chart**  
+<img src="images/QS_30m.png" width="700"/>
 
-**1-hour Chart**
-![1h](images/QS_1h.png)
+**1-hour Chart**  
+<img src="images/QS_1h.png" width="700"/>
+
 
 ---
 
