@@ -1,31 +1,78 @@
-# Quantum Strategy 📈
-
+# Quantum Strategy 📈  
 A scientific BTC/USDT trading strategy using directional scoring and ATR-based TP/SL.
 
 ## 📌 Features
 - Directional Score System (long/short)
-- 2x ATR Take-Profit, 1x ATR Stop-Loss
-- Score ≥ 1 triggers trade
-- Leverage: 5x simulation
+- 2× ATR Take-Profit, 1× ATR Stop-Loss
+- Score ≥ 1 triggers a trade
+- Leverage: 5× simulated
 - Backtest ROI: ~875% (2021–2022)
 
-> ⚠️ This indicator provides signal-based guidance for discretionary trading.
-> It does **not** account for news events, liquidation heatmaps, funding rate trends, or market sentiment (FOMO). Use with caution and in combination with other tools.
-
-## 🧪 Files
-- `quantum_strategy_v1.py`: core logic
-- `backtest/`: results and performance
-- `config/settings.json`: parameters
-
-## 🛠️ Setup
-Coming soon...
-
-## 🚀 Roadmap
-- Incorporate liquidation map data
-- Add real-time funding rate indicators
-- Experiment with sentiment and volume-based filters
-- Scale up into a multi-algo hybrid framework
+> ⚠️ This indicator provides **signal-based guidance** for discretionary trading.  
+> It **does not account for** news events, liquidation heatmaps, funding rate trends, or market sentiment (FOMO).  
+> Use with caution and **combine with other tools**.
 
 ---
 
-> Made by Kiin Chang and Pine Script logic
+## 📊 Strategy Logic Summary
+
+| Component                  | Description |
+|---------------------------|-------------|
+| 📈 **Directional Score**   | Aggregates RSI, EMA structure, pattern match signals with weighted scoring |
+| 📉 **ATR-based Risk Control** | Uses dynamic market volatility to determine TP/SL levels |
+| 🧠 **Why scoring system?** | Enables reproducibility and probabilistic edge from multi-signal convergence |
+| 🧠 **Why ATR?**            | Adapts to changing volatility; avoids overfitting fixed SL/TP settings |
+
+---
+
+## 📸 Signal Snapshot Example  
+*Long: Green (L3+), Short: Red (S-2, S-3)*  
+*(5-min chart – BTCUSDT Perpetual, BINANCE)*
+
+<img src="assets/quantum_strategy_example1.png" alt="Quantum Strategy chart snapshot" width="100%">
+
+<img src="assets/quantum_strategy_example2.png" alt="Quantum Strategy chart snapshot 2" width="100%">
+
+---
+
+## 🧪 Files
+- `quantum_strategy_v1.py` – Core Pine Script logic
+- `backtest/` – Backtesting CSVs and summaries
+- `config/settings.json` – Strategy parameters and weight coefficients
+
+---
+
+## 🛠️ Setup
+> Coming soon:  
+> - Install instructions  
+> - Pine Script deployment  
+> - Backtesting guide with TradingView + Python script
+
+---
+
+## 🚀 Roadmap
+- Incorporate liquidation map data (Binance/Bubble Charts)
+- Real-time funding rate trend tracking
+- Add sentiment filters via Twitter sentiment APIs
+- Multi-algo framework with regime detection
+- Machine-learning scoring model for L/S prediction
+
+---
+
+## 📬 Contact
+
+> Strategy developed by **Kiin Chang**  
+> For collaboration or integration inquiries:  
+📧 **wedo@gmail.com**
+
+---
+
+## 🔐 Note
+
+> ⚠️ The **full Pine Script code is not open-source**.  
+> The public version shares performance snapshots and key logic.  
+> If you're interested in collaboration or licensing, please reach out.
+
+---
+
+
