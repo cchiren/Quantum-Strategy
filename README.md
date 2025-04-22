@@ -33,13 +33,13 @@ Preliminary results show promising signal reliability and risk-reward balance un
 *(BTCUSDT Perpetual, BINANCE – 5m, 30m, 1h)*
 
 ### 🕔 5-minute Chart
-![5m](images/QS_5min.png)
+![5m](images/QS%205min.png)
 
 ### 🕧 30-minute Chart
-![30m](images/QS_30m.png)
+![30m](images/QS%2030m.png)
 
 ### 🕐 1-hour Chart
-![1h](images/QS_1h.png)
+![1h](images/QS%201h.png)
 
 
 
